@@ -30,7 +30,6 @@ export default function Questions({ onChecked }) {
 
     if(isLoading) return <h3 className='text-light'>isLoading</h3>
     
-    console.log(serverError)
     if(serverError) return <h3 className='text-light'>{"Unknown Error"}</h3>
 
   return (
